@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: efef01852407c344db7ab7dba62b9dad
+guid: 37fac36c9057193458b379966d7845a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2934044517641243297
-    second: ramo_0
+      213: 8494460545622962956
+    second: rami_1000_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ramo_0
+      name: rami_1000_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 35
-        width: 96
-        height: 29
+        x: 59
+        y: 279
+        width: 925
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1aa403d81f1d7b820800000000000000
-      internalID: 2934044517641243297
+      spriteID: c037d645cd262e570800000000000000
+      internalID: 8494460545622962956
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ramo_0: 2934044517641243297
+      rami_1000_0: 8494460545622962956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
