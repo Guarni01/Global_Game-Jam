@@ -31,13 +31,13 @@ public class Player : MonoBehaviour
             assex = 1f;
           
         }
-        //if (Input.GetKey(KeyCode.UpArrow))
+        //if (Input.GetKey(KeyCode.UpArrow) Mask_1)
         //{
             
         //    rb.constraints = RigidbodyConstraints2D.FreezePositionX;
         //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, 1);
         //}
-        //if (Input.GetKey(KeyCode.DownArrow))
+        //if (Input.GetKey(KeyCode.DownArrow && Mask_3))
         //{
             
         //    rb.constraints = RigidbodyConstraints2D.FreezePositionX;
