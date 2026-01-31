@@ -1,14 +1,19 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: f58607d7973bb524ea8847af20358f70
-=======
-guid: 0535e9bc591a17945b6152c0830c402c
->>>>>>> cc9466f02ff6dc5325d54d66b6b7821042d6dbe0
+guid: 2eef0ee084059554199c189a312a8635
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 199655554457151452
-    second: mensola grande_0
+      213: 3655909571490824712
+    second: piattaforma piccola_0
+  - first:
+      213: -8205733935181451474
+    second: piattaforma piccola_1
+  - first:
+      213: -2431549687437020541
+    second: piattaforma piccola_2
+  - first:
+      213: -6690917956425927472
+    second: piattaforma piccola_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -104,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mensola grande_0
+      name: piattaforma piccola_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 279
-        width: 442
-        height: 92
+        x: 339
+        y: 349
+        width: 262
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd72ad04ba155c200800000000000000
-      internalID: 199655554457151452
+      spriteID: 80249aba2666cb230800000000000000
+      internalID: 3655909571490824712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piattaforma piccola_1
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 339
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f242836706f1e80800000000000000
+      internalID: -8205733935181451474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piattaforma piccola_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 329
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382ba923176614ed0800000000000000
+      internalID: -2431549687437020541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piattaforma piccola_3
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 309
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d433f191951523a0800000000000000
+      internalID: -6690917956425927472
       vertices: []
       indices: 
       edges: []
@@ -139,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mensola grande_0: 199655554457151452
+      piattaforma piccola_0: 3655909571490824712
+      piattaforma piccola_1: -8205733935181451474
+      piattaforma piccola_2: -2431549687437020541
+      piattaforma piccola_3: -6690917956425927472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
