@@ -31,15 +31,15 @@ public class Player : MonoBehaviour
             assex = 1f;
           
         }
-        //if (Input.GetKey(KeyCode.UpArrow) Mask_1)
+        //if (Input.GetKey(KeyCode.UpArrow) )
         //{
-            
+
         //    rb.constraints = RigidbodyConstraints2D.FreezePositionX;
         //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, 1);
         //}
-        //if (Input.GetKey(KeyCode.DownArrow && Mask_3))
+        //if (Input.GetKey(KeyCode.DownArrow && &&MaskController.Instance.Mask_3 ))
         //{
-            
+
         //    rb.constraints = RigidbodyConstraints2D.FreezePositionX;
         //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, -1);
 
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(assex * velocita, rb.linearVelocity.y);
 
 
-        if (Input.GetKeyDown(KeyCode.Space) && aTerra)
+        if (Input.GetKeyDown(KeyCode.Space) && aTerra)  //&&MaskController.Instance.Mask_1 )
         {
             rb.AddForce(new Vector2(0, forzaSalto), ForceMode2D.Impulse);
         }
