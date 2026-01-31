@@ -11,4 +11,11 @@ public class GameController : MonoSingleton<GameController>
 
 
     }
+
+    public void OptionsGame()
+    {
+        Hub.SetActive(true);
+
+
+    }
 }
