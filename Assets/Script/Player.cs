@@ -46,15 +46,15 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Livello1"))
         {
-            SceneManager.LoadScene("Level_1");
+            transform.position = LevelController.Instance.Lv1.transform.position;
         }
         if (collision.gameObject.CompareTag("Livello2"))
         {
-            SceneManager.LoadScene("Level_2");
+            transform.position = LevelController.Instance.Lv2.transform.position;
         }
         if (collision.gameObject.CompareTag("Livello3"))
         {
-            SceneManager.LoadScene("Level_3");
+            transform.position = LevelController.Instance.Lv3.transform.position;
         }
     }
 
