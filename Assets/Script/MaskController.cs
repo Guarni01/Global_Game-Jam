@@ -9,26 +9,32 @@ public class MaskController : MonoSingleton<LevelController>
     // Update is called once per frame
     void Update()
     {
-        if(Mask_1)
+        if (LevelController.Instance.Level_1 && Input.GetKeyDown(KeyCode.A)) //PickMask1
         {
-            if(LevelController.Instance.Level_1 && Input.GetKeyDown(KeyCode.A))
-            {
-                //Ostacolo1
-            }
+            Mask_1 = !Mask_1;
+        }
+        if (LevelController.Instance.Level_2 && Input.GetKeyDown(KeyCode.S)) //PickMask2
+        {
+            Mask_2 = !Mask_2;
+        }
+        if (LevelController.Instance.Level_3 && Input.GetKeyDown(KeyCode.D)) //PickMask3
+        {
+            Mask_3 = !Mask_3;
+        }
+        if (Mask_1)
+        {
+            
+            //GameObject.SetActive(true);
         }
         if (Mask_2)
         {
-            if (LevelController.Instance.Level_2 && Input.GetKeyDown(KeyCode.W))
-            {
-                // Ostacolo2
-            }
+            //GameObject.SetActive(true);
         }
         if (Mask_3)
         {
-            if (LevelController.Instance.Level_3 && Input.GetKeyDown(KeyCode.S))
-            {
-                //Ostacolo3
-            }
+            //GameObject.SetActive(true);
         }
+
+
     }
 }
