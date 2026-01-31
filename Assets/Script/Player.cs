@@ -21,12 +21,14 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            AnimatorController.Instance.directions = -1;
             rb.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
             assex = -1f;
    
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
+            AnimatorController.Instance.directions = 1;
              rb.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
             assex = 1f;
           
