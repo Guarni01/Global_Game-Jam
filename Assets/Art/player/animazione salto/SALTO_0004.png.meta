@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: f58607d7973bb524ea8847af20358f70
-=======
-guid: 0535e9bc591a17945b6152c0830c402c
->>>>>>> cc9466f02ff6dc5325d54d66b6b7821042d6dbe0
+guid: 73860e8c4b76080439a2bab794eff4cc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 199655554457151452
-    second: mensola grande_0
+      213: 5247676681836043460
+    second: SALTO_0004_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -104,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mensola grande_0
+      name: SALTO_0004_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 279
-        width: 442
-        height: 92
+        x: 839
+        y: 939
+        width: 1202
+        height: 1882
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd72ad04ba155c200800000000000000
-      internalID: 199655554457151452
+      spriteID: 4cc10f4832e73d840800000000000000
+      internalID: 5247676681836043460
       vertices: []
       indices: 
       edges: []
@@ -139,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mensola grande_0: 199655554457151452
+      SALTO_0004_0: 5247676681836043460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

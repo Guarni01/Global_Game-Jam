@@ -9,6 +9,7 @@ TagManager:
   - Livello1
   - Livello2
   - Livello3
+  - Arrampicabile
   layers:
   - Default
   - TransparentFX

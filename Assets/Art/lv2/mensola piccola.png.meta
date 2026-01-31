@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 8506de9d3aa29fd439175950de8f9030
+=======
 guid: 8a353f83dd8dd3f4c8143078a9e221ba
+>>>>>>> cc9466f02ff6dc5325d54d66b6b7821042d6dbe0
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -103,10 +107,17 @@ TextureImporter:
       name: mensola piccola_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
+        x: 129
+        y: 239
+        width: 212
+        height: 42
+=======
         x: 39
         y: 359
         width: 262
         height: 92
+>>>>>>> cc9466f02ff6dc5325d54d66b6b7821042d6dbe0
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

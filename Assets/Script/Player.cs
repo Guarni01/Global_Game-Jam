@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float forzaSalto = 10f;   
     private Rigidbody2D rb;
     private bool aTerra;
+    private bool arrampico = false;
 
     void Start()
     {
@@ -33,7 +34,7 @@ public class Player : MonoBehaviour
             assex = 1f;
           
         }
-        //if (Input.GetKey(KeyCode.UpArrow) )
+        //if (Input.GetKey(KeyCode.UpArrow) && Mask_1)
         //{
 
         //    rb.constraints = RigidbodyConstraints2D.FreezePositionX;
@@ -53,6 +54,7 @@ public class Player : MonoBehaviour
         {
             rb.AddForce(new Vector2(0, forzaSalto), ForceMode2D.Impulse);
         }
+        Debug.Log(arrampico);
     }
 
 
@@ -82,6 +84,24 @@ public class Player : MonoBehaviour
         {
             aTerra = false;
         }
+
     }
-  
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Arrampicabile"))
+        {
+            arrampico = true;
+            transform.position = other.transform.position;
+
+        }
+    }
+
+     private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Arrampicabile"))
+        {
+            arrampico = false;
+          
+        }
+    }
 }

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: abdd07134d0531b4e8604ac2c5132860
+=======
 guid: 6f99eff7564c0ae49852200a3a84edaf
+>>>>>>> cc9466f02ff6dc5325d54d66b6b7821042d6dbe0
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -103,10 +107,17 @@ TextureImporter:
       name: mensola media_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
+        x: 159
+        y: 279
+        width: 302
+        height: 62
+=======
         x: 59
         y: 329
         width: 352
         height: 92
+>>>>>>> cc9466f02ff6dc5325d54d66b6b7821042d6dbe0
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

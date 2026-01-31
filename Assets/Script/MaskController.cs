@@ -5,9 +5,9 @@ public class MaskController : MonoSingleton<LevelController>
     public bool Mask_1;
     public bool Mask_2;
     public bool Mask_3;
-    public GameObject Mask1;
-    public GameObject Mask2;
-    public GameObject Mask3;
+    //public GameObject Mask1;
+    //public GameObject Mask2;
+    //public GameObject Mask3;
     // Update is called once per frame
     void Update()
     {
