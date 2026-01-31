@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -16,28 +15,45 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        float movimento = 0f;
+        
+        float assex = 0f;
 
-        // Controllo solo con le frecce
+
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            movimento = -1f;
+            rb.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
+            assex = -1f;
+   
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            movimento = 1f;
+             rb.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
+            assex = 1f;
+          
         }
+        //if (Input.GetKey(KeyCode.UpArrow))
+        //{
+            
+        //    rb.constraints = RigidbodyConstraints2D.FreezePositionX;
+        //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, 1);
+        //}
+        //if (Input.GetKey(KeyCode.DownArrow))
+        //{
+            
+        //    rb.constraints = RigidbodyConstraints2D.FreezePositionX;
+        //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, -1);
 
-        rb.linearVelocity = new Vector2(movimento * velocita, rb.linearVelocity.y);
+        //}
+        rb.linearVelocity = new Vector2(assex * velocita, rb.linearVelocity.y);
 
-        // Salto con Space
+
         if (Input.GetKeyDown(KeyCode.Space) && aTerra)
         {
             rb.AddForce(new Vector2(0, forzaSalto), ForceMode2D.Impulse);
         }
     }
 
-    // Verifica se il player � a terra
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Terreno"))
